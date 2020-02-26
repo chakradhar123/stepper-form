@@ -1,0 +1,103 @@
+
+html,body{
+    margin:0;
+    padding: 0;
+}
+*{
+    font-family: cursive;
+}
+#heading{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    
+    padding-bottom: 5px;
+}
+#steps{
+    display: inline-block;
+
+    margin:1vh auto;
+    text-align: center; 
+}
+#steps-wrapper{
+    text-align: center;
+}
+#steps >div{
+float: left;
+padding: 1vh;
+margin:  5px;
+font-size: 4vh;
+border: 1px solid black;
+border-radius: 5px;
+}
+#step-1{
+    border-right: 2px solid black;
+}
+
+#step-3{
+    border-left: 2px solid black;
+}
+#form-2 {
+    display: none;
+}
+
+#form-3 {
+    display: none;
+}
+#details{
+    display: none;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 2vh;
+    margin-top: 25vh;
+}
+#details-head{
+    margin:0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#details>div{
+margin:15px 0;
+}
+.current-step{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.completed{
+    background-color:#80ff80;
+    color: white;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 2vh;
+}
+.form >label{
+    margin-top: 5px;;
+}
+button{
+    margin:5px 30%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+@media (min-width:768px){
+    #forms{      
+       margin: 0 30vh;
+    }  
+    #details{
+        margin: 20vh 30vh;
+    }
+    button{
+        margin:5px 40%;
+        
+    
+    }
+
+}
